@@ -42,4 +42,18 @@ main() {
 
   //toString()
   print(age.toString());
+
+  //startswith() //Sensetive to capital
+  print(name.startsWith("B"));
+
+  //endsWith() //Sensetive to capital
+  print(lastname.endsWith("A"));
+
+  //contains() //Sensetive to capital
+  print(name.contains("d"));
+  print(lastname.contains("d"));
+
+  //indexOf() // Return the first index
+  print(name.indexOf("m"));
+  print(lastname.indexOf("N"));
 }
