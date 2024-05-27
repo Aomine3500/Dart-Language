@@ -1,11 +1,14 @@
 void main() {
   //Comments in Dart
 
-  //a is an integer with a value equal to 10
-  int a = 10;
-  print(a);
-  /* This is the second type to write comments 
-     in multi-lines
-     in Dart 
+  // This is single-line comment.
+  print("Welcome to Technology Channel.");
+
+  /*
+    This is a multi-line comment.
   */
+  print("Welcome to Technology Channel.");
+
+  /// This is documentation comment
+  print("Welcome to Technology Channel.");
 }

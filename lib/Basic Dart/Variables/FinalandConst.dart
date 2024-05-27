@@ -13,7 +13,7 @@ main() {
   final address = "35 Rue Hédi Chaker Soliman";
   print(address);
 
-  //Change it
+  //Change it: Generate Errors
   /*age = 40;
   address = "Nabeul";
   print(age, address);

@@ -3,7 +3,7 @@ main() {
   //Part 1
   List names = ["ahmed", 10, "Yasser", 18, "Hiba", 12.35, "Borhan", "Rim"];
   print(names);
-  //Position starts from 0
+  //List index starts from 0
   print(names[1]);
 
   //List inside list
@@ -17,5 +17,4 @@ main() {
 
   print(imbrique[2]);
   print(imbrique[2][1]);
-
 }
