@@ -1,59 +1,33 @@
 main() {
   //Learn Strings property in Dart
-  String name = "Ahmed";
-  String lastname = "ZNOUDA";
-  String vide = "";
-  String greeting = "Bonjour les amis";
-  int age = 33;
+  String text1 = 'This is an example of a single-line string.';
+  String text2 =
+      "This is an example of a single line string using double quotes.";
+  String text3 = """This is a multiline line string using the triple-quotes.
+This is tutorial on dart strings.
+""";
 
-  print(name + " " + lastname + " is $age years old");
+  String vide = "";
+
+  print(text1);
+  print(text2);
+  print(text3);
 
   //String Properties
 
   //isEmpty
-  print(name.isEmpty);
+  print(text1.isEmpty);
   print(vide.isEmpty);
 
   //length //count starts from 1
-  print(name.length);
+  print(text2.length);
 
-  //String Methods
+  //codeUnits: Returns an unmodifiable list of the UTF-16 code units of this string.
+  print(text3.codeUnits);
 
-  //toLowerCase()
-  print(lastname.toLowerCase());
-
-  //toUpperCase()
-  print(name.toUpperCase());
-
-  //Trim() //Returns the string without any leading and trailing whitespace.
-  print(name.trim());
-
-  //CompareTo() //Return 0, 1 or -1
-  print(name.compareTo(lastname)); //compare two strings
-
-  //replaceAll()
-  print(greeting.replaceAll("Bonjour", "Bonsoire"));
-
-  //split() //Splits the string at matches of the specified delimiter and returns a list of substrings.
-  print(greeting.split(' '));
-
-  //substring() //start & end , not returning the first position
-  print(greeting.substring(8, 13));
-
-  //toString()
-  print(age.toString());
-
-  //startswith() //Sensetive to capital
-  print(name.startsWith("B"));
-
-  //endsWith() //Sensetive to capital
-  print(lastname.endsWith("A"));
-
-  //contains() //Sensetive to capital
-  print(name.contains("d"));
-  print(lastname.contains("d"));
-
-  //indexOf() // Return the first index
-  print(name.indexOf("m"));
-  print(lastname.indexOf("N"));
+  //String Concatenation
+  String firstName = "John";
+  String lastName = "Doe";
+  print("Using +, Full Name is " + firstName + " " + lastName + ".");
+  print("Using interpolation, full name is $firstName $lastName.");
 }
