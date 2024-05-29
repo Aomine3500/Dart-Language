@@ -15,4 +15,12 @@ main() {
     if (age < 25) break;
     print("My age is $age");
   }
+
+  //Example 3:
+  for (int i = 10; i >= 1; i--) {
+    if (i == 5) {
+      break;
+    }
+    print(i);
+  }
 }

@@ -8,4 +8,11 @@ main() {
     a += 2;
     print(a);
   }
+
+  //Other example
+  var age = 25;
+  assert(age != 22, "Age must be 22");
+
+  //Run File in Assert Mode
+  //dart --enable-asserts file_name.dart
 }

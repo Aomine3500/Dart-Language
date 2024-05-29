@@ -1,9 +1,14 @@
 main() {
   //Learning Loops in Dart
   //For Loop
+  /*
+     for(initialization; condition; increment/decrement){
+        statements;
+     }
+   */
   //Example 1:
-  for (var annee = 1990; annee < 2025; annee++) {
-    print("Années est: $annee");
+  for (var year = 1990; year < 2025; year++) {
+    print("Year is : $year");
   }
 
   //Example 2:
@@ -19,4 +24,15 @@ main() {
     print("My options are: $Options");
     Options--;
   }
+
+  //Example 4: Display Sum of n Natural Numbers Using For Loop
+    int total = 0;
+  int n = 85; // change as per required
+  
+  for(int i=1; i<=n; i++){
+    total = total + i;
+  }
+  
+  print("Total is $total");
+
 }

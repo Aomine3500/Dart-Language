@@ -25,4 +25,26 @@ main() {
         print("My Total $total is different than other numbers");
       }
   }
+
+  //Other Example
+  const weather = "floudy";
+
+  switch (weather) {
+    case "sunny":
+      print("Its a sunny day. Put sunscreen.");
+      break;
+    case "snowy":
+      print("Get your skis.");
+      break;
+    case "cloudy":
+    case "rainy":
+      print("Please bring umbrella.");
+      break;
+    case "floudy":
+      print("Rod balek rahi bech teb7er");
+      break;
+    default:
+      print("Sorry I am not familiar with such weather.");
+      break;
+  }
 }

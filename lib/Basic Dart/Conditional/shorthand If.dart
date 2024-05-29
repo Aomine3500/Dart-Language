@@ -20,4 +20,9 @@ main() {
   (name == "Hédi") && (a >= 5)
       ? print("Wallahi houa $name")
       : print("La Hédi la welou");
+
+  //Third Example
+  var age = 16;
+  var check = (age >= 18) ? 'You are a voter.' : 'You are not a voter.';
+  print(check);
 }
