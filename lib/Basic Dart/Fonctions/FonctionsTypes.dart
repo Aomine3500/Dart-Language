@@ -1,21 +1,46 @@
-main() {
+void main() {
   //Learn Functions in Dart
   //Types of Functions
+  /*
+    * No Parameter And No Return Type
+    * Parameter And No Return Type
+    * No Parameter And Return Type
+    * Parameter And Return Type
+  */
 
-  //We Have  Void and Return Functions
-  //void Function
-  sumNumbers(int a, int b) {
-    int c = a + b;
-    print(c);
+  // 1) Function With No Parameter And No Return Type:
+  void printName() {
+    print("My name is Ahmed Znouda.");
   }
 
-  sumNumbers(11, 28);
+  printName();
 
-  //Return Funcion
-  int multiNumbers(int x, int y) {
-    return (x * y);
+  // 2) function With Parameter And No Return Type:
+  void printNameParam(String name) {
+    print("Welcome, ${name}.");
   }
 
-  int z = multiNumbers(5, 8);
-  print(z);
+  printNameParam("Sofiene");
+
+  // 3) Function With No Parameter And Return Type:
+  String primeMinisterName() {
+    return "John Doe";
+  }
+
+  String name = primeMinisterName();
+  print("The Name from function is $name.");
+
+  // 4) Function With Parameter And Return Type:
+  int add(int a, int b) {
+    int sum = a + b;
+    return sum;
+  }
+
+  int num1 = 10;
+  int num2 = 20;
+
+  int total = add(num1, num2);
+  int total2 = add(35, 47);
+  print("The sum is $total.");
+  print("The sum is $total2.");
 }

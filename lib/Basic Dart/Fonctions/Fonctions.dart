@@ -1,11 +1,16 @@
-main() {
-  //Learn Functions in Dart
+//Learn Functions in Dart
+/*
+    returntype functionName(parameter1,parameter2, ...){
+     // function body
+    }
+  */
 
-  //function syntax
-  printName() {
-    print("ahmed");
-  }
+//function syntax
+printName() {
+  print("My name is ahmed");
+}
 
+void main() {
   //Function call
   printName();
 
