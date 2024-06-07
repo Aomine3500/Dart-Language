@@ -6,6 +6,10 @@ main() {
   //List index starts from 0
   print(names[1]);
 
+  //List with a fixed length
+  var list = List<int>.filled(5, 0);
+  print(list);
+
   //List inside list
   List imbrique = [
     "Hello",
@@ -17,4 +21,8 @@ main() {
 
   print(imbrique[2]);
   print(imbrique[2][1]);
+
+  //Get Index By Value
+  print(names.indexOf("Hiba"));
+  print(list.indexOf(0));
 }

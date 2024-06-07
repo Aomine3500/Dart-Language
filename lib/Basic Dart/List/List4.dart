@@ -17,7 +17,15 @@ main() {
   names.removeAt(1);
   print(names);
 
-  //removeRange //remove with range
+  //removeRange: Removes the item within the specified range.
+  //(start, end) => end is not removed
   ages.removeRange(3, 5);
   print(ages);
+
+  //removeLast: Remove the last element
+  names.removeLast();
+  print(names);
+
+  List cond = ages.where((age) => age % 2 == 0).toList();
+  print(cond);
 }

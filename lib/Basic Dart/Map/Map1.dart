@@ -20,5 +20,9 @@ main() {
   //print the key elements only
   print(info.keys);
 
+  //isEmpty
+  print(info.isEmpty);
 
+  //isNotEmpty
+  print(info.isNotEmpty);
 }
